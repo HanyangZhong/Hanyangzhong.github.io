@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://hanyangzhong.com/profile2.jpg" class="floatpic" width="360" height="480">
+<img src="images/profile2.jpg" class="floatpic" width="360" height="480">
 
 Here is **Hanyang Zhong (Hanyang, 钟翰扬)**.
 
