@@ -20,7 +20,6 @@ I would be delighted to discuss potential collaborations or my research in more 
 
 **<font color='red'>[Highlight]</font> I am looking for postdoctoral research to start in 2025 Fall. Contact me if you have any leads!**
 
-- **Sep 2015 - June 2019:** Nanchang Institute of Technology (BEng)
 - **Sep 2021 - June 2022:** University of York (MSc)
 - **Sep 2022 - Now:** University of York (Phd)
 
@@ -34,7 +33,8 @@ I am currently pursuing a PhD. Upon successful PhD completion, I hope to obtain 
 
 - Large language models (LLM)
 - Multi-modality
-- Trustworthy AI
+- 3D Reconstruction
+- SLAM
 - AI Agent
 - Robotics
 - Embodied AI
@@ -48,6 +48,9 @@ My research centers on advancing **Embodied AI** by integrating large language m
 
 ## News and Updates
 
+- **July 2024：** The [ICME 2024](https://2024.ieeeicme.org/#/) was perfectly held, and our papers (Camera Ready Version of *[LLM-SAP](https://vista-h.github.io/MML4SG_2024/papers/wang2024llm.pdf) and FENet*) were perfectly exhibited at the conference. Welcome to continue following our work.
+- **April 2024：** Our work *LLM-SAP: Large Language Models Situational Awareness Based Planning* has been accepted to [ICMEW 2024](https://vista-h.github.io/MML4SG_2024/#/) . See you in Canada! [Preprint version download](https://arxiv.org/abs/2312.16127#/)🔗
+- **March 2024：** Our work *FENet: Focusing Enhanced Network for Lane Detection* has been accepted to [ICME 2024](https://2024.ieeeicme.org/#/) as an Oral paper. See you in Canada! [Preprint version download](https://arxiv.org/abs/2312.17163#/)🔗
 - **Jan 2024:** Becoming an **ICME reviewer**!
 - **Dec 2023:** I posted a preprint on arXiv titled "[**LLM-SAP: Large Language Model Situational Awareness Based Planning**](https://github.com/HanyangZhong/Situational_Planning_datasets)" exploring the use of LLMs to enable context-aware robot planning. I welcome constructive feedback, related perspectives, and relevant citations from the community as I continue developing these ideas at the intersection of language models, robotics, and embodied intelligence. Please reach out if you see potential connections to your own research - I believe open collaboration can advance this emerging field.
 - **Dec 2023:** I posted the preprint "[**FENet: Focusing Enhanced Network for Lane Detection**](https://github.com/HanyangZhong/FENet)" on arXiv. This paper proposes a novel neural network approach to improve lane detection capabilities in autonomous driving. I welcome constructive feedback, relevant perspectives, and citations from the community as I continue refining this method. Please reach out if you see potential connections to your own work at the intersection of computer vision and autonomous systems - open collaboration can advance this important field.
