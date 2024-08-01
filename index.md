@@ -8,9 +8,9 @@ layout: page
 
 Here is **Hanyang Zhong (Hanyang, 钟翰扬)**.
 
-I am a second-year PhD candidate in the School of Electronic Engineering at the University of York in the UK. My research interests encompass large language models, multi-modality, trustworthy AI, computer vision, and robotics. I am currently conducting doctoral research under the supervision of Professor Mark Post, investigating the integration of large language models with underwater robots. Additionally, I was recently selected to serve as a Reviewer for the IEEE International Conference on Multimedia and Expo **(ICME)**. 
+I am a second-year PhD candidate in the School of Electronic Engineering at the University of York in the UK. My research interests encompass Large Language Models, Multi-modality, 3D Reconstruction, SLAM and Embodied AI. I am currently conducting doctoral research under the supervision of Professor Mark Post, investigating the integration of large language models with robots and Multi-agent SLAM system.  
 
-My background includes experience as a researcher in Professor Post's lab at York, where my focus has been on advancing the state-of-the-art in language model capabilities for robotic platforms. I have a passion for interdisciplinary research that bridges AI, robotics, and multimedia modalities. 
+My background includes experience as a researcher in Professor Post's lab at York, where my focus has been on advancing the state-of-the-art in language model capabilities for robotic platforms. I have a passion for interdisciplinary research that bridges LLM, Embodied AI, and 3D Reconstruction. 
 
 I would be delighted to discuss potential collaborations or my research in more detail. Please feel free to email me if you would like to connect further (hanyang.zhong@york.ac.uk).
 
