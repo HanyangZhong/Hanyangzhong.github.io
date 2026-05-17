@@ -93,13 +93,26 @@ Current research topics include:
 
 - **March - May 2026:** I continue serving as a reviewer for **Complex & Intelligent Systems (CAIS/CIS)**. I appreciate the opportunity to review work related to intelligent systems, AI, and robotics.
 
-- **March 2026:** Our work *StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments* is currently under review. We propose a line-centric stereo SLAM system for structured and low-texture environments such as corridors, workshops, and photovoltaic fields. This work aims to provide a lightweight geometric mapping solution for robotic systems operating in structure-dominant scenes. **Links:** [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801) | [Project Website](https://anonymous.4open.science/r/SLAM-C7BA/README.md) | [Video](https://www.youtube.com/watch?v=MN1LQOo9EvI)
+- **March 2026:** Our work *StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments* is currently under review. We propose a line-centric stereo SLAM system for structured and low-texture environments such as corridors, workshops, and photovoltaic fields. This work aims to provide a lightweight geometric mapping solution for robotic systems operating in structure-dominant scenes.
+
+  - [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801) 🔗
+  - [Project Website](https://anonymous.4open.science/r/SLAM-C7BA/README.md) 🔗
+  - [Video](https://www.youtube.com/watch?v=MN1LQOo9EvI) 🔗
 
 - **March 2026:** I became a reviewer for [**IROS 2026**](https://2026.ieee-iros.org/), the IEEE/RSJ International Conference on Intelligent Robots and Systems. IROS 2026 will be held in Pittsburgh, Pennsylvania, USA, focusing on intelligent robots, autonomous systems, robot learning, and embodied AI. I am happy to contribute to the robotics research community through the reviewing process.
 
-- **Oct 2025:** Our work *MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection* has been accepted to **IEEE Robotics and Automation Letters (RA-L)**. We propose a multimodal robotic framework that combines RGB images, tactile sensing, pressure data, and MLLM-based reasoning for fabric sorting and selection. This work explores how multimodal foundation models can support task-aware robotic manipulation of deformable materials. [Paper](https://ieeexplore.ieee.org/abstract/document/11217170) 🔗 | [Project Website](https://github.com/limanwang/MLLM-Fabric) 🔗 | [Dataset](https://huggingface.co/datasets/EuniceF/MLLM-Fabric) 🔗
+- **Oct 2025:** Our work *MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection* has been accepted to **IEEE Robotics and Automation Letters (RA-L)**. We propose a multimodal robotic framework that combines RGB images, tactile sensing, pressure data, and MLLM-based reasoning for fabric sorting and selection. This work explores how multimodal foundation models can support task-aware robotic manipulation of deformable materials.
 
-- **July 2025:** Our work *Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions* has been accepted to [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/). We propose an abstention-aware evaluation and prompting framework to study how cognitive biases affect LLM reasoning under uncertainty, aiming to improve the reliability and practical utility of LLM-based decision-making systems. The paper, dataset, benchmark website, and poster are publicly available: [Paper](https://escholarship.org/uc/item/2vr690cx) 🔗 | [Dataset](https://github.com/HanyangZhong/BRU-datasets) 🔗 | [Project Website](https://hanyangzhong.github.io/BRU-website/) 🔗 | [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf) 🔗
+  - [Paper](https://ieeexplore.ieee.org/abstract/document/11217170) 🔗
+  - [Project Website](https://github.com/limanwang/MLLM-Fabric) 🔗
+  - [Dataset](https://huggingface.co/datasets/EuniceF/MLLM-Fabric) 🔗
+
+- **July 2025:** Our work *Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions* has been accepted to [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/). We propose an abstention-aware evaluation and prompting framework to study how cognitive biases affect LLM reasoning under uncertainty, aiming to improve the reliability and practical utility of LLM-based decision-making systems. The paper, dataset, benchmark website, and poster are publicly available.
+
+  - [Paper](https://escholarship.org/uc/item/2vr690cx) 🔗
+  - [Dataset](https://github.com/HanyangZhong/BRU-datasets) 🔗
+  - [Project Website](https://hanyangzhong.github.io/BRU-website/) 🔗
+  - [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf) 🔗
 
 - **July 2024:** The [**ICME 2024**](https://2024.ieeeicme.org/#/) was successfully held, and our papers (*LLM-SAP* and *FENet*) were presented at the conference. Welcome to continue following our work.
 
