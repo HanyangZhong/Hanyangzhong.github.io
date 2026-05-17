@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="images/profile7.jpg" class="floatpic">
+<img src="images/profile8.jpg" class="floatpic">
 
 I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at the University of York, UK.
 
