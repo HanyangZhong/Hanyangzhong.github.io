@@ -20,13 +20,12 @@ I am open to collaborations and research opportunities in robotics, embodied AI,
 
 ## Academic Background
 
-**<font color='red'>[Highlight]</font> I am looking for postdoctoral research to start in 2025 Fall. Contact me if you have any leads!**
+**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in Fall 2026 in robotic manipulation, contact-rich manipulation, robot learning, dexterous robotics, and embodied AI. Please feel free to contact me if you have any leads!**
 
 - **Sep 2021 - June 2022:** University of York (MSc)
-- **Sep 2022 - Now:** University of York (Phd)
+- **Sep 2022 - Sep 2026** University of York (PhD)
 
-I am currently pursuing a PhD. Upon successful PhD completion, I hope to obtain postdoctoral research opportunities in academia or industry. My goal is to excel in my doctoral studies to be competitive for quality postdoc positions related to my expertise.
-
+I am currently pursuing a PhD in Electronic Engineering at the University of York. Upon successful completion of my PhD, I hope to continue my research career as a postdoctoral researcher in academia or industry. I am particularly interested in positions related to contact-rich robotic manipulation, dexterous hands, tactile/force sensing, imitation learning, multimodal robotic systems, and embodied AI.
 <br>
 
 ---
@@ -55,7 +54,7 @@ Current research topics include:
 
 ---
 
-## Selected Publications and Preprints
+## Publications and Preprints
 
 - **StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments**  
   **Hanyang Zhong**, Liman Wang, Mark Post  
@@ -83,8 +82,6 @@ Current research topics include:
   This work explores how large language models can be used for situational-awareness-based robotic planning. The framework encourages robots to consider environmental context, task constraints, and safety-related information before generating actions. It represents an early step toward using LLMs as high-level reasoning modules for embodied robotic decision-making.
 
 ---
-
-## News and Updates
 
 ## News and Updates
 
