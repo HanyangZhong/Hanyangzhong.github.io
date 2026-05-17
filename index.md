@@ -8,11 +8,11 @@ layout: page
 
 I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at the University of York, UK, supervised by Professor Mark Post.
 
-I work on robotics and embodied AI, with recent projects focusing on real-world robotic systems and manipulation tasks. My research combines system development, robot learning, and multimodal sensing, aiming to build reliable robotic platforms that can operate under complex physical interactions.
+My research focuses on **AI-empowered robotic systems**, especially applying multimodal AI, robot learning, and foundation models to robotic perception, reasoning, and manipulation. I am interested in building real-world robotic systems that can understand physical environments, reason over multimodal information, and perform reliable actions under complex contact conditions.
 
-I have been involved in projects spanning contact-rich manipulation, dexterous robotic hands, teleoperation systems, SLAM, and LLM/MLLM-based robotic reasoning.
+My recent work spans contact-rich manipulation, dexterous robotic platforms, tactile/force sensing, SLAM, and LLM/MLLM-based robotic reasoning. These projects share a common goal: enabling robots to better perceive, decide, and act in the physical world.
 
-I am open to collaborations and research opportunities in robotics, embodied AI, and robot learning.
+I am open to collaborations and postdoctoral research opportunities in AI for robotics, robotic manipulation, embodied AI, and robot learning.
 
 📧 hanyang.zhong@york.ac.uk
 
@@ -20,7 +20,7 @@ I am open to collaborations and research opportunities in robotics, embodied AI,
 
 ## Academic Background
 
-**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in Fall 2026 in robotic manipulation, contact-rich manipulation, robot learning, dexterous robotics, and embodied AI. Please feel free to contact me if you have any leads!**
+**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in Fall 2026 in AI for Robotics, robotic manipulation, robot learning, dexterous robotics, tactile/force sensing, and embodied AI. Please feel free to contact me if you have any leads!**
 
 - **Sep 2021 - June 2022:** University of York (MSc)
 - **Sep 2022 - Sep 2026** University of York (PhD)
@@ -32,23 +32,23 @@ I am currently pursuing a PhD in Electronic Engineering at the University of Yor
 
 ## Research Interests
 
-My research interests center on **contact-rich robotic manipulation** and **embodied AI**.
+My research interests center on **AI for Robotics**, with a focus on applying modern AI techniques to real-world robotic perception, reasoning, and manipulation.
 
-I am particularly interested in how robots can interact robustly with objects under complex contact conditions, such as adhesion, insertion, occlusion, friction, deformation, and hidden force constraints.
+I am particularly interested in how multimodal AI, robot learning, and foundation models can help robots operate reliably under complex physical interactions, including contact-rich manipulation, deformable objects, force constraints, and structured environments.
 
 Current research topics include:
 
-- Contact-rich manipulation
-- Dexterous manipulation
+- AI for Robotics
+- Contact-rich robotic manipulation
+- Dexterous manipulation and robotic hands
 - Force-aware robot learning
-- Bimanual manipulation
-- Teleoperation and robot data collection
-- Imitation learning / learning from demonstration
 - Tactile and visuotactile perception
+- Bimanual manipulation and teleoperation
+- Imitation learning / learning from demonstration
 - Multimodal robotic systems
 - Vision-Language-Action models
-- Embodied AI and foundation models for robotics
-- SLAM and spatial intelligence for robotics
+- Foundation models for robotics
+- SLAM and spatial intelligence for robotic systems
 
 <br>
 
