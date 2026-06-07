@@ -8,6 +8,8 @@ layout: page
 
 I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at the University of York, UK.
 
+[Here is my Resume](https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_06_01.pdf)，updated at June 2026.
+
 My research focuses on **AI-empowered robotic systems**, especially applying multimodal AI, robot learning, and foundation models to robotic perception, reasoning, and manipulation. I am interested in building real-world robotic systems that can understand physical environments, reason over multimodal information, and perform reliable actions under complex contact conditions.
 
 My recent work spans contact-rich manipulation, dexterous robotic platforms, tactile/force sensing, SLAM, and LLM/MLLM-based robotic reasoning. These projects share a common goal: enabling robots to better perceive, decide, and act in the physical world.
