@@ -1,44 +1,88 @@
 ---
+
 layout: page
 permalink: /publications/index.html
 title: Publications
----
+-------------------
 
-Lastest Update: 28th Dec 2023&nbsp;  [中文版本 (Chinese Version)](https://caihanlin.com/file/publications-zh/)
+Latest Update: June 2026
 
-## Conference Paper
+This page lists my selected publications, preprints, and manuscripts. My research focuses on AI-empowered robotic systems, contact-rich manipulation, dexterous robotic platforms, tactile/force sensing, multimodal robot learning, SLAM, and LLM/MLLM-based robotic reasoning.
 
-- [Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://caihanlin.com/file/404/) (Under Final Revision)<br>*Final year project (FYP)*<br>**Hanlin Cai**, Yuchen Fang, Meng Yuan, Zhezhuang Xu<br>AAAI Conference on Artificial Intelligence, Undergraduate Consortium ([AAAI 2024 UC](https://aaai.org/aaai-conference/undergraduate-consortium/))<br>Vancouver, Canada. February, 2024.
+## Journal Papers
 
-- [Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model](https://www.researchgate.net/publication/374730865)<br>*Junior year course design.*<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics (ICAROB 2023)<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
+* [**MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection**](https://ieeexplore.ieee.org/abstract/document/11217170)
+  Liman Wang, **Hanyang Zhong**, Tianyuan Wang, Shan Luo, Jihong Zhu
+  *IEEE Robotics and Automation Letters (RA-L), 2025*
+  Presented as a poster at IEEE International Conference on Robotics and Automation (**ICRA 2026**)
+  [Project Website](https://github.com/limanwang/MLLM-Fabric) / [Dataset](https://huggingface.co/datasets/EuniceF/MLLM-Fabric)
+  This work proposes a robotic framework for fabric sorting and selection using multimodal large language models. The system integrates RGB images, tactile sensing, and pressure data to support task-aware robotic reasoning over material properties such as softness, elasticity, and thickness.
+  *Role: Second author and ICRA poster presenter. Contributions include data collection, multimodal large-model fine-tuning, and reasoning-oriented question/prompt design.*
 
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://www.researchgate.net/publication/368410220_An_IoT_Garbage_Monitoring_System_for_Effective_Garbage_Management)<br>*Freshman course design, early project.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
-
-  <br>
-
-## Journal Paper
-
-- Coming soon! 🚀
-
-  <br>
+<br>
 
 ---
 
-## Working Manuscript
+## Conference Papers
 
-- Detecting Multiple-mix-attack in IoT Networks through Reconstruction and Classiﬁcation Machine Learning Techniques<br>
+* [**Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions**](https://escholarship.org/uc/item/2vr690cx)
+  **Hanyang Zhong**, Liman Wang, Wenting Cao, Zeyuan Sun
+  *Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 47, 2025*
+  [Project Website](https://hanyangzhong.github.io/BRU-website/) / [Dataset](https://github.com/HanyangZhong/BRU-datasets) / [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf)
+  This work investigates how cognitive biases affect the decision-making behavior of large language models in multiple-choice reasoning tasks. It studies how abstention and bias-aware prompting can balance accuracy, decisiveness, and reliability under uncertainty.
+  *Role: Co-first author.*
 
-- Multi-objective Optimization Model Based on Analysis of Human-Land Relationship Coupling: A Case Study of the Masai Mara National Reserve<br>
+* [**FENet: Focusing Enhanced Network for Lane Detection**](https://arxiv.org/abs/2312.17163)
+  **Hanyang Zhong**, Liman Wang
+  *IEEE International Conference on Multimedia and Expo (**ICME**), 2024, pp. 1–6*
+  **Oral Paper**
+  [Code](https://github.com/HanyangZhong/FENet)
+  This work proposes a focusing enhanced network for robust lane detection in autonomous driving scenarios. The method improves the representation of lane-related visual features, especially under challenging road conditions where lane markings may be weak, occluded, or visually ambiguous.
+  *Role: Co-first author.*
 
-  <br>
+* [**LLM-SAP: Large Language Models Situational Awareness-Based Planning**](https://arxiv.org/abs/2312.16127)
+  **Hanyang Zhong**, Liman Wang
+  *IEEE International Conference on Multimedia and Expo Workshops (**ICMEW**), 2024, pp. 1–6*
+  [Project / Dataset](https://github.com/HanyangZhong/Situational_Planning_datasets)
+  This work explores how large language models can be used for situational-awareness-based robotic planning. The framework encourages robots to consider environmental context, task constraints, and safety-related information before generating actions.
+  *Role: Co-first author.*
+
+<br>
 
 ---
 
-## Undergrad Thesis
+## Preprints and Manuscripts Under Review
 
-- Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks<br>**Hanlin Cai** (Advisor: Zhezhuang Xu). Final Year Project. Under working<br>Expect to submit a research paper to IEEE Internet of Things Journal.
+* [**StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801)
+  **Hanyang Zhong**, Liman Wang, Mark Post
+  *Under Review, Preprint, 2026*
+  [Project Website](https://anonymous.4open.science/r/SLAM-C7BA/README.md) / [Video](https://www.youtube.com/watch?v=MN1LQOo9EvI)
+  This work presents a line-centric stereo SLAM system designed for structure-dominant and low-texture environments. It uses line features as primary geometric cues to improve localization and mapping robustness in scenes such as corridors, workshops, photovoltaic fields, and other man-made environments.
 
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-report.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu, Yuxiong Xia). Junior Intern Program.<br>Industrial Placement Report in [Huading Tech](http://www.hdim.com.cn/) and [IACTIP Lab](https://dqxy.fzu.edu.cn/en/)<br>
+* **DexRemo: A Wrist-Frame Fingertip Force Sensing Hand Platform for Contact-Rich Removal Manipulation**
+  **Hanyang Zhong** et al.
+  *Revise and Resubmit, IEEE Transactions on Robotics (**T-RO**), 2026*
+  This work develops a wrist-frame fingertip force sensing hand platform for contact-rich removal manipulation, focusing on real robotic system design, fingertip force sensing, and contact-rich manipulation validation.
+  *Role: Co-first author. Contributions include hardware design, fingertip force-sensor design, and algorithm validation for contact-rich manipulation.*
 
-  <br>
+* **Hidden Force-Regime Coverage for Contact-Rich Bimanual Imitation Learning**
+  **Hanyang Zhong** et al.
+  *Submitted to Conference on Robot Learning (**CoRL**), 2026*
+  This work investigates force-regime coverage for contact-rich bimanual imitation learning, with emphasis on bimanual robotic platform development, force-aware demonstration collection, sensor integration, and real-system policy validation.
+  *Role: Independent first author. Contributions include hardware design, full bimanual platform debugging, integration between the robotic system and learning pipeline, sensor design and integration, and algorithm validation.*
 
+<br>
+
+---
+
+## Selected Research Projects
+
+* **Contact-Rich Robotic Manipulation and Dexterous Hand Platforms**
+  My recent research explores force-aware robotic manipulation systems, including dexterous hand design, fingertip force sensing, teleoperation, bimanual manipulation, and imitation learning for contact-rich tasks.
+
+* **Multimodal AI for Robotic Reasoning and Manipulation**
+  I work on integrating multimodal perception, tactile/force sensing, and foundation models into robotic systems, aiming to enable robots to better understand physical environments and make task-aware decisions.
+
+
+
+<br>
