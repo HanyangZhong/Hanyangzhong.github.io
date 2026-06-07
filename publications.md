@@ -1,9 +1,8 @@
 ---
-
 layout: page
 permalink: /publications/index.html
 title: Publications
--------------------
+---
 
 Latest Update: June 2026
 
