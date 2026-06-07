@@ -11,19 +11,20 @@ Latest Update: June 2026
 - [MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection](https://ieeexplore.ieee.org/abstract/document/11217170)<br>**Liman Wang**, **Hanyang Zhong**, Tianyuan Wang, Shan Luo, Jihong Zhu<br>IEEE Robotics and Automation Letters (RA-L), 2025.<br>Presented as a poster at IEEE International Conference on Robotics and Automation (ICRA 2026).<br>[Project Website](https://github.com/limanwang/MLLM-Fabric) / [Dataset](https://huggingface.co/datasets/EuniceF/MLLM-Fabric)<br>
 
 
-- [Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model](https://www.researchgate.net/publication/374730865)<br>*Junior year course design.*<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics (ICAROB 2023)<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
-
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://www.researchgate.net/publication/368410220_An_IoT_Garbage_Monitoring_System_for_Effective_Garbage_Management)<br>*Freshman course design, early project.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
-
   <br>
 
-## Journal Paper
+## Conference Paper
 
-- Coming soon! 🚀
+- [Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions](https://escholarship.org/uc/item/2vr690cx)<br>**Hanyang Zhong**, Liman Wang, Wenting Cao, Zeyuan Sun<br>Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 47, 2025.<br>[Project Website](https://hanyangzhong.github.io/BRU-website/) / [Dataset](https://github.com/HanyangZhong/BRU-datasets) / [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf)<br>
+
+- [FENet: Focusing Enhanced Network for Lane Detection](https://arxiv.org/abs/2312.17163)<br>**Hanyang Zhong**, Liman Wang<br>IEEE International Conference on Multimedia and Expo (ICME), 2024, pp. 1–6.<br>Oral Paper.<br>[Code](https://github.com/HanyangZhong/FENet)<br>
+
+- [LLM-SAP: Large Language Models Situational Awareness-Based Planning](https://arxiv.org/abs/2312.16127)<br>**Hanyang Zhong**, Liman Wang<br>IEEE International Conference on Multimedia and Expo Workshops (ICMEW), 2024, pp. 1–6.<br>[Project / Dataset](https://github.com/HanyangZhong/Situational_Planning_datasets)<br>
 
   <br>
 
 ---
+
 
 ## Working Manuscript
 
