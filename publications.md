@@ -26,21 +26,14 @@ Latest Update: June 2026
 ---
 
 
-## Working Manuscript
+## Preprint and Manuscript
 
-- Detecting Multiple-mix-attack in IoT Networks through Reconstruction and Classiﬁcation Machine Learning Techniques<br>
+- [StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801)<br>**Hanyang Zhong**, Liman Wang, Mark Post<br>Under review, Preprint, 2026.<br>[Project Website](https://anonymous.4open.science/r/SLAM-C7BA/README.md) / [Video](https://www.youtube.com/watch?v=MN1LQOo9EvI)<br>
 
-- Multi-objective Optimization Model Based on Analysis of Human-Land Relationship Coupling: A Case Study of the Masai Mara National Reserve<br>
+- DexRemo: A Wrist-Frame Fingertip Force Sensing Hand Platform for Contact-Rich Removal Manipulation<br>**Hanyang Zhong** et al.<br>Revise and Resubmit, IEEE Transactions on Robotics (T-RO), 2026.<br>
 
-  <br>
-
----
-
-## Undergrad Thesis
-
-- Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks<br>**Hanlin Cai** (Advisor: Zhezhuang Xu). Final Year Project. Under working<br>Expect to submit a research paper to IEEE Internet of Things Journal.
-
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-report.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu, Yuxiong Xia). Junior Intern Program.<br>Industrial Placement Report in [Huading Tech](http://www.hdim.com.cn/) and [IACTIP Lab](https://dqxy.fzu.edu.cn/en/)<br>
+- Hidden Force-Regime Coverage for Contact-Rich Bimanual Imitation Learning<br>**Hanyang Zhong** et al.<br>Submitted to Conference on Robot Learning (CoRL), 2026.<br>
 
   <br>
+
 
