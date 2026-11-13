@@ -4,9 +4,11 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: June 2026
+Latest Update: November 2026
 
 ## Journal Paper
+
+- [DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation](https://arxiv.org/abs/2611.15981)<br>Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup>, Zhaole Sun, Wenting Cao, Babar Jamil, Andy Tyrrell, Shan Luo, Jihong Zhu<br>IEEE Transactions on Robotics (T-RO), 2026. (Accepted)<br><sup>†</sup> Equal contribution.<br>[Project Website](https://dexremo.github.io/) / [Paper (arXiv)](https://arxiv.org/abs/2611.15981) / [Video](https://youtu.be/4ot1Yy7es_o)<br>
 
 - [MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection](https://ieeexplore.ieee.org/abstract/document/11217170)<br>**Liman Wang**, **Hanyang Zhong**, Tianyuan Wang, Shan Luo, Jihong Zhu<br>IEEE Robotics and Automation Letters (RA-L), 2025.<br>Presented as a poster at IEEE International Conference on Robotics and Automation (ICRA 2026).<br>[Project Website](https://github.com/limanwang/MLLM-Fabric) / [Dataset](https://huggingface.co/datasets/EuniceF/MLLM-Fabric)<br>
 
@@ -30,9 +32,7 @@ Latest Update: June 2026
 
 - [StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801)<br>**Hanyang Zhong**, Liman Wang, Mark Post<br>Under review, Preprint, 2026.<br>[Project Website](https://anonymous.4open.science/r/SLAM-C7BA/README.md) / [Video](https://www.youtube.com/watch?v=MN1LQOo9EvI)<br>
 
-- DexRemo: A Wrist-Frame Fingertip Force Sensing Hand Platform for Contact-Rich Removal Manipulation<br>**Hanyang Zhong** et al.<br>Revise and Resubmit, IEEE Transactions on Robotics (T-RO), 2026.<br>
-
-- Hidden Force-Regime Coverage for Contact-Rich Bimanual Imitation Learning<br>**Hanyang Zhong** et al.<br>Submitted to Conference on Robot Learning (CoRL), 2026.<br>
+- Hidden Force-Regime Coverage for Contact-Rich Bimanual Imitation Learning<br>**Hanyang Zhong** et al.<br>Under review, IEEE International Conference on Robotics and Automation (ICRA), 2027.<br>
 
   <br>
 

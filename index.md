@@ -12,9 +12,9 @@ I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at
 
 My research focuses on **AI-empowered robotic systems**, especially applying multimodal AI, robot learning, and foundation models to robotic perception, reasoning, and manipulation. I am interested in building real-world robotic systems that can understand physical environments, reason over multimodal information, and perform reliable actions under complex contact conditions.
 
-My recent work spans contact-rich manipulation, dexterous robotic platforms, tactile/force sensing, SLAM, and LLM/MLLM-based robotic reasoning. These projects share a common goal: enabling robots to better perceive, decide, and act in the physical world.
+My recent work spans contact-rich manipulation, dexterous robotic platforms (e.g., [DexRemo](https://dexremo.github.io/), accepted to IEEE T-RO), tactile/force sensing, SLAM, LLM/MLLM-based robotic reasoning, and agentic robots. These projects share a common goal: enabling robots to better perceive, decide, and act in the physical world.
 
-I am open to collaborations and postdoctoral research opportunities in AI for robotics, robotic manipulation, embodied AI, and robot learning.
+I am open to collaborations and postdoctoral research opportunities in AI for robotics, robotic manipulation, agentic robots, embodied AI, and robot learning.
 
 📧 hanyang.zhong@york.ac.uk
 
@@ -22,12 +22,12 @@ I am open to collaborations and postdoctoral research opportunities in AI for ro
 
 ## Academic Background
 
-**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in Fall 2026 in AI for Robotics, robotic manipulation, robot learning, dexterous robotics, tactile/force sensing, and embodied AI. Please feel free to contact me if you have any leads!**
+**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in early 2027 in AI for Robotics, robotic manipulation, robot learning, dexterous robotics, tactile/force sensing, agentic robots, and embodied AI. Please feel free to contact me if you have any leads!**
 
 - **Sep 2021 - June 2022:** University of York (MSc)
-- **Sep 2022 - Sep 2026** University of York (PhD)
+- **Sep 2022 - Jan 2027 (expected):** University of York (PhD; viva expected in Dec 2026)
 
-I am currently pursuing a PhD in Electronic Engineering at the University of York. Upon successful completion of my PhD, I hope to continue my research career as a postdoctoral researcher in academia or industry. I am particularly interested in positions related to contact-rich robotic manipulation, dexterous hands, tactile/force sensing, imitation learning, multimodal robotic systems, and embodied AI.
+I am currently pursuing a PhD in Electronic Engineering at the University of York. Upon successful completion of my PhD, I hope to continue my research career as a postdoctoral researcher in academia or industry. I am particularly interested in positions related to contact-rich robotic manipulation, dexterous hands, tactile/force sensing, imitation learning, multimodal robotic systems, agentic robots, and embodied AI.
 <br>
 
 ---
@@ -50,6 +50,7 @@ Current research topics include:
 - Multimodal robotic systems
 - Vision-Language-Action models
 - Foundation models for robotics
+- Agentic robots: LLM/MLLM-based agents for robot task planning, reasoning, and skill orchestration
 - SLAM and spatial intelligence for robotic systems
 
 <br>
@@ -57,6 +58,12 @@ Current research topics include:
 ---
 
 ## Publications and Preprints
+
+- **DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation**  
+  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup>, Zhaole Sun, Wenting Cao, Babar Jamil, Andy Tyrrell, Shan Luo, Jihong Zhu (<sup>†</sup> equal contribution)  
+  *IEEE Transactions on Robotics (T-RO), 2026 (Accepted)*  
+  [Project Website](https://dexremo.github.io/) / [Paper](https://arxiv.org/abs/2611.15981) / [Video](https://youtu.be/4ot1Yy7es_o)  
+  This work presents DexRemo, a low-cost three-finger, 12-DoF robotic hand with optional three-axis fingertip force sensing, together with a suite of nine real-robot removal tasks involving adhered, embedded, contaminated, or buried targets. By expressing fingertip pose and force in a shared wrist frame, imitation-learning policies improve task success from 24% to 83%. The hand also achieves a 62.5 N pullout strength, the highest among the compared hands.
 
 - **StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments**  
   **Hanyang Zhong**, Liman Wang, Mark Post  
@@ -85,9 +92,26 @@ Current research topics include:
 
 ---
 
+## Academic Service
+
+Reviewer for:
+
+- **IEEE International Conference on Robotics and Automation (ICRA):** 2026, 2027
+- **Robotics: Science and Systems (RSS):** 2027
+- **Conference on Robot Learning (CoRL):** 2026
+- **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS):** 2026
+- **Complex & Intelligent Systems (CAIS/CIS):** 2026
+- **IEEE International Conference on Multimedia and Expo (ICME):** 2024
+
+---
+
 ## News and Updates
 
-- **Upcoming (June 2026):** I will attend [**ICRA 2026**](https://2026.ieee-icra.org/) to present our *MLLM-Fabric* poster. Looking forward to discussing our recent work on multimodal robotic manipulation, tactile sensing, and embodied AI with the robotics community.
+- **Nov 2026:** Our work [**DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation**](https://arxiv.org/abs/2611.15981) has been accepted to **IEEE Transactions on Robotics (T-RO)**! 🎉 We present a low-cost force-sensing three-finger hand and a task suite of nine contact-rich removal tasks, and show that expressing fingertip force in a shared wrist frame raises imitation-learning success from 24% to 83%. The [**project website**](https://dexremo.github.io/) and [**project video**](https://youtu.be/4ot1Yy7es_o) are now available, and hardware/software will be open-sourced in stages.
+
+- **ICRA 2027 & RSS 2027:** I am serving as a reviewer for [**ICRA 2027**](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), the IEEE International Conference on Robotics and Automation, and [**RSS 2027**](https://roboticsconference.org/), Robotics: Science and Systems. I am glad to keep contributing to the robotics and robot learning community through reviewing.
+
+- **June 2026:** I attended [**ICRA 2026**](https://2026.ieee-icra.org/) to present our *MLLM-Fabric* poster, and enjoyed discussing our recent work on multimodal robotic manipulation, tactile sensing, and embodied AI with the robotics community.
 
 - **May 2026:** I participated in the [**Institute for Safe Autonomy (ISA) Industry Summit and Open Day**](https://www.linkedin.com/posts/yesterday-we-hosted-our-first-safe-autonomy-ugcPost-7458152703320420352-D3Aw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOr9DUB6aB17yx2UhkaK1uoeustSxi0iJE) at the University of York. It was a great opportunity to present and discuss our recent robotics research with visitors from academia and industry, especially around safe autonomy, embodied AI, and robotic manipulation.
 
