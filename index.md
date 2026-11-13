@@ -8,7 +8,7 @@ layout: page
 
 I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at the University of York, UK.
 
-[Here is my Resume](https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_06_01.pdf)，updated at June 2026.
+[Here is my Resume](https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_11_13.pdf)，updated at November 2026.
 
 My research focuses on **AI-empowered robotic systems**, especially applying multimodal AI, robot learning, and foundation models to robotic perception, reasoning, and manipulation. I am interested in building real-world robotic systems that can understand physical environments, reason over multimodal information, and perform reliable actions under complex contact conditions.
 
@@ -76,17 +76,17 @@ Current research topics include:
   This work proposes a robotic framework for fabric sorting and selection using multimodal large language models. The system integrates RGB images, tactile sensing, and pressure data to reason about material properties such as softness, elasticity, and thickness. It demonstrates how MLLMs can support task-aware robotic decision-making for deformable material handling and textile-related applications.
 
 - **Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions**  
-  **Hanyang Zhong**, Liman Wang, Wenting Cao, Zeyuan Sun  
+  **Hanyang Zhong**<sup>†</sup>, Liman Wang<sup>†</sup>, Wenting Cao, Zeyuan Sun (<sup>†</sup> equal contribution)  
   *CogSci 2025*  
   This work investigates how cognitive biases affect the decision-making behavior of large language models in multiple-choice reasoning tasks. Instead of simply attempting to remove all biases, it studies how abstention and bias-aware prompting can balance accuracy, decisiveness, and reliability. The work provides insights into building more trustworthy LLM-based reasoning systems under uncertainty.
 
 - **FENet: Focusing Enhanced Network for Lane Detection**  
-  **Hanyang Zhong**, Liman Wang  
+  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)  
   *IEEE ICME 2024, Oral*  
   This work proposes a focusing enhanced network for robust lane detection in autonomous driving scenarios. The method improves the representation of lane-related visual features, especially under challenging road conditions where lane markings may be weak, occluded, or visually ambiguous. It contributes to perception systems for intelligent transportation and autonomous driving.
 
 - **LLM-SAP: Large Language Models Situational Awareness-Based Planning**  
-  **Hanyang Zhong**, Liman Wang  
+  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)  
   *IEEE ICME Workshops, 2024*  
   This work explores how large language models can be used for situational-awareness-based robotic planning. The framework encourages robots to consider environmental context, task constraints, and safety-related information before generating actions. It represents an early step toward using LLMs as high-level reasoning modules for embodied robotic decision-making.
 

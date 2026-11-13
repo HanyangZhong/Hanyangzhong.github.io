@@ -17,11 +17,11 @@ Latest Update: November 2026
 
 ## Conference Paper
 
-- [Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions](https://escholarship.org/uc/item/2vr690cx)<br>**Hanyang Zhong**, Liman Wang, Wenting Cao, Zeyuan Sun<br>Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 47, 2025.<br>[Project Website](https://hanyangzhong.github.io/BRU-website/) / [Dataset](https://github.com/HanyangZhong/BRU-datasets) / [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf)<br>
+- [Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions](https://escholarship.org/uc/item/2vr690cx)<br>**Hanyang Zhong**<sup>†</sup>, Liman Wang<sup>†</sup>, Wenting Cao, Zeyuan Sun (<sup>†</sup> equal contribution)<br>Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 47, 2025.<br>[Project Website](https://hanyangzhong.github.io/BRU-website/) / [Dataset](https://github.com/HanyangZhong/BRU-datasets) / [Poster](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf)<br>
 
-- [FENet: Focusing Enhanced Network for Lane Detection](https://arxiv.org/abs/2312.17163)<br>**Hanyang Zhong**, Liman Wang<br>IEEE International Conference on Multimedia and Expo (ICME), 2024, pp. 1–6.<br>Oral Paper.<br>[Code](https://github.com/HanyangZhong/FENet)<br>
+- [FENet: Focusing Enhanced Network for Lane Detection](https://arxiv.org/abs/2312.17163)<br>Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)<br>IEEE International Conference on Multimedia and Expo (ICME), 2024, pp. 1–6.<br>Oral Paper.<br>[Code](https://github.com/HanyangZhong/FENet)<br>
 
-- [LLM-SAP: Large Language Models Situational Awareness-Based Planning](https://arxiv.org/abs/2312.16127)<br>**Hanyang Zhong**, Liman Wang<br>IEEE International Conference on Multimedia and Expo Workshops (ICMEW), 2024, pp. 1–6.<br>[Project / Dataset](https://github.com/HanyangZhong/Situational_Planning_datasets)<br>
+- [LLM-SAP: Large Language Models Situational Awareness-Based Planning](https://arxiv.org/abs/2312.16127)<br>Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)<br>IEEE International Conference on Multimedia and Expo Workshops (ICMEW), 2024, pp. 1–6.<br>[Project / Dataset](https://github.com/HanyangZhong/Situational_Planning_datasets)<br>
 
   <br>
 
