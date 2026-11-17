@@ -2,141 +2,217 @@
 layout: page
 ---
 
-# About Me
+<style>
+.profile { color: #2f2f2f; font-size: 16px; line-height: 1.65; }
+.profile a { color: #2f5d8a; text-decoration: none; }
+.profile a:hover { text-decoration: underline; }
 
-<img src="images/profile9.jpg" class="floatpic">
+.profile-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 28px; }
+.profile-header img { width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex: 0 0 auto; }
+.profile-header h1 { margin: 0 0 10px; font-size: 2.2rem; line-height: 1.15; }
+.profile-header p { margin: 0 0 10px; }
+.profile-links a + a { margin-left: 14px; }
 
-I am **Hanyang Zhong (钟翰扬)**, a PhD candidate in Electronic Engineering at the University of York, UK.
+.open-to { margin-top: 12px; padding: 10px 14px; border-left: 4px solid #2f5d8a; background: #f2f6fa; border-radius: 4px; }
 
-[Here is my Resume](https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_11_13.pdf)，updated at November 2026.
+.profile section { margin-top: 34px; }
+.profile h2 { margin: 0 0 14px; padding-bottom: 7px; border-bottom: 1px solid #e5e5e5; font-size: 1.45rem; }
 
-My research focuses on **AI-empowered robotic systems**, especially applying multimodal AI, robot learning, and foundation models to robotic perception, reasoning, and manipulation. I am interested in building real-world robotic systems that can understand physical environments, reason over multimodal information, and perform reliable actions under complex contact conditions.
+.highlights { margin: 0; padding-left: 20px; }
+.highlights li { margin-bottom: 8px; }
 
-My recent work spans contact-rich manipulation, dexterous robotic platforms (e.g., [DexRemo](https://dexremo.github.io/), accepted to IEEE T-RO), tactile/force sensing, SLAM, LLM/MLLM-based robotic reasoning, and agentic robots. These projects share a common goal: enabling robots to better perceive, decide, and act in the physical world.
+.stack-row { display: flex; gap: 16px; margin-bottom: 10px; }
+.stack-label { flex: 0 0 150px; font-weight: 600; color: #444; }
+.chip { display: inline-block; margin: 0 6px 6px 0; padding: 1px 10px; border: 1px solid #d6dde5; border-radius: 99px; background: #f7f9fb; font-size: 0.88rem; }
 
-I am open to collaborations and postdoctoral research opportunities in AI for robotics, robotic manipulation, agentic robots, embodied AI, and robot learning.
+.publication { margin-bottom: 18px; }
+.publication-title { font-weight: 600; }
+.publication-meta { color: #555; }
+.publication.featured { padding: 16px 18px; border: 1px solid #e5e5e5; border-left: 4px solid #d9480f; border-radius: 6px; background: #fbf8f4; }
+.publication.featured .publication-title { font-size: 1.08rem; }
+.badge { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 99px; color: #fff; font-size: 0.8rem; font-weight: 600; vertical-align: 2px; }
+.badge-new { background: #d9480f; }
+.badge-review { background: #6c757d; }
+.publication-links a + a { margin-left: 14px; }
 
-📧 hanyang.zhong@york.ac.uk
+.timeline { margin: 0; padding: 0; list-style: none; }
+.timeline li { margin-bottom: 8px; }
+.timeline-date { display: inline-block; min-width: 150px; color: #666; font-weight: 600; }
 
----
+.news { margin: 0; padding: 0; list-style: none; }
+.news li { margin-bottom: 8px; }
+.news-date { display: inline-block; min-width: 88px; color: #666; font-weight: 600; }
 
-## Academic Background
+@media (max-width: 700px) {
+  .profile-header { display: block; }
+  .profile-header img { margin-bottom: 16px; }
+  .stack-row { display: block; }
+  .stack-label { margin-bottom: 4px; }
+  .timeline-date, .news-date { display: block; }
+}
+</style>
 
-**<font color='red'>[Highlight]</font> I am looking for postdoctoral research opportunities starting in early 2027 in AI for Robotics, robotic manipulation, robot learning, dexterous robotics, tactile/force sensing, agentic robots, and embodied AI. Please feel free to contact me if you have any leads!**
+<div class="profile">
 
-- **Sep 2021 - June 2022:** University of York (MSc)
-- **Sep 2022 - Jan 2027 (expected):** University of York (PhD; viva expected in Dec 2026)
+<div class="profile-header">
+  <img src="images/profile9.jpg" alt="Hanyang Zhong" />
+  <div>
+    <h1>Hanyang Zhong (钟翰扬)</h1>
+    <p>
+      PhD candidate in Electronic Engineering (Robotics) at the
+      <a href="https://www.york.ac.uk/">University of York</a>, UK (expected Jan 2027).
+      I build complete real-robot systems for <strong>dexterous, contact-rich manipulation</strong>:
+      dexterous hands and fingertip force sensors, embedded control, multimodal data collection,
+      and imitation-learning policies deployed on physical robots. I also build
+      <strong>agentic robots</strong> that use LLM/MLLM reasoning to drive learned skills.
+    </p>
+    <p class="profile-links">
+      <a href="mailto:hanyang.zhong@york.ac.uk">Email</a>
+      <a href="https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_11_13.pdf">CV</a>
+      <a href="https://scholar.google.com/citations?user=6cbhsRMAAAAJ">Google Scholar</a>
+      <a href="https://github.com/HanyangZhong">GitHub</a>
+      <a href="https://huggingface.co/hanyang1">Hugging Face</a>
+    </p>
+    <div class="open-to">
+      <strong>Open to roles from early 2027:</strong> Robotics / Embodied AI Research Scientist,
+      Robot Learning Engineer, or Postdoc, in dexterous manipulation, robot learning and embodied AI.
+    </div>
+  </div>
+</div>
 
-I am currently pursuing a PhD in Electronic Engineering at the University of York. Upon successful completion of my PhD, I hope to continue my research career as a postdoctoral researcher in academia or industry. I am particularly interested in positions related to contact-rich robotic manipulation, dexterous hands, tactile/force sensing, imitation learning, multimodal robotic systems, agentic robots, and embodied AI.
-<br>
+<section>
+  <h2>Highlights</h2>
+  <ul class="highlights">
+    <li><strong>Co-first author of <a href="https://dexremo.github.io/">DexRemo</a>, accepted to IEEE T-RO (2026).</strong>
+      Designed the hardware and fingertip force sensors for a low-cost, 12-DoF three-finger hand.
+      Adding fingertip force raised imitation-learning success from <strong>24% to 83%</strong>,
+      and the hand reached a <strong>62.5 N</strong> pull-out strength, the highest among the hands we compared.</li>
+    <li><strong>5 peer-reviewed papers</strong> in T-RO, RA-L, ICME (Oral), ICMEW and CogSci; first or co-first author on 4.</li>
+    <li><strong>Built a full robot stack alone:</strong> the bimanual teleoperation platform, force sensors, PCB and firmware,
+      the data pipeline, and policy deployment. Independent first author of a bimanual imitation-learning paper under review at ICRA 2027.</li>
+    <li><strong>Reviewer</strong> for ICRA, RSS, CoRL and IROS. Presented a poster at ICRA 2026 in Vienna.</li>
+    <li><strong>Open-source releases:</strong> the <a href="https://huggingface.co/datasets/EuniceF/MLLM-Fabric">MLLM-Fabric dataset</a>,
+      the <a href="https://github.com/HanyangZhong/BRU-datasets">BRU dataset</a> and <a href="https://github.com/HanyangZhong/FENet">FENet code</a>.</li>
+    <li><strong>Industry experience:</strong> 2 years as an Embedded Systems Engineer and 3 years as a Graduate Teaching Assistant for MSc Intelligent Robotics.</li>
+  </ul>
+</section>
 
----
+<section>
+  <h2>Tech Stack</h2>
+  <div class="stack-row">
+    <div class="stack-label">Robot Learning</div>
+    <div><span class="chip">Imitation Learning</span><span class="chip">ACT-style Policies</span><span class="chip">Teleoperation Data Collection</span><span class="chip">Multimodal Policies (Vision / Force / Tactile)</span><span class="chip">Real-Robot Deployment</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Embodied AI</div>
+    <div><span class="chip">LLM / MLLM Task Planning</span><span class="chip">Agentic Skill Orchestration</span><span class="chip">VLA Systems</span><span class="chip">MLLM Fine-tuning</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Software</div>
+    <div><span class="chip">Python</span><span class="chip">C++</span><span class="chip">PyTorch</span><span class="chip">ROS</span><span class="chip">OpenCV</span><span class="chip">Linux</span><span class="chip">Git</span><span class="chip">Multi-sensor Sync &amp; Logging</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Hardware</div>
+    <div><span class="chip">Fingertip Force / F-T Sensing</span><span class="chip">Sensor Calibration</span><span class="chip">PCB Design</span><span class="chip">Embedded Firmware</span><span class="chip">Motor Control</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Mechanical</div>
+    <div><span class="chip">SolidWorks</span><span class="chip">Inventor</span><span class="chip">Dexterous Hand Prototyping</span><span class="chip">3D Printing</span><span class="chip">CNC</span><span class="chip">Sheet Metal</span></div>
+  </div>
+</section>
 
-## Research Interests
+<section>
+  <h2>Selected Publications</h2>
 
-My research interests center on **AI for Robotics**, with a focus on applying modern AI techniques to real-world robotic perception, reasoning, and manipulation.
+  <div class="publication featured">
+    <div class="publication-title"><span class="badge badge-new">New</span>DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation</div>
+    <div>Liman Wang<sup>&dagger;</sup>, <strong>Hanyang Zhong</strong><sup>&dagger;</sup>, Zhaole Sun, Wenting Cao, Babar Jamil, Andy Tyrrell, Shan Luo, Jihong Zhu
+      <span class="publication-meta">(<sup>&dagger;</sup>equal contribution)</span></div>
+    <div class="publication-meta"><em>IEEE Transactions on Robotics (T-RO), 2026, accepted</em></div>
+    <div class="publication-links">
+      <a href="https://dexremo.github.io/">Project Page</a>
+      <a href="https://arxiv.org/abs/2611.15981">Paper</a>
+      <a href="https://youtu.be/4ot1Yy7es_o">Video</a>
+    </div>
+  </div>
 
-I am particularly interested in how multimodal AI, robot learning, and foundation models can help robots operate reliably under complex physical interactions, including contact-rich manipulation, deformable objects, force constraints, and structured environments.
+  <div class="publication">
+    <div class="publication-title"><span class="badge badge-review">Under Review</span>Hidden Force-Regime Coverage for Contact-Rich Bimanual Imitation Learning</div>
+    <div><strong>Hanyang Zhong</strong>, et al.</div>
+    <div class="publication-meta"><em>IEEE International Conference on Robotics and Automation (ICRA), 2027, under review</em></div>
+  </div>
 
-Current research topics include:
+  <div class="publication">
+    <div class="publication-title">MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection</div>
+    <div>Liman Wang, <strong>Hanyang Zhong</strong>, Tianyuan Wang, Shan Luo, Jihong Zhu</div>
+    <div class="publication-meta"><em>IEEE Robotics and Automation Letters (RA-L), 2025; presented at ICRA 2026</em></div>
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/11217170">Paper</a>
+      <a href="https://github.com/limanwang/MLLM-Fabric">Code</a>
+      <a href="https://huggingface.co/datasets/EuniceF/MLLM-Fabric">Dataset</a>
+    </div>
+  </div>
 
-- AI for Robotics
-- Contact-rich robotic manipulation
-- Dexterous manipulation and robotic hands
-- Force-aware robot learning
-- Tactile and visuotactile perception
-- Bimanual manipulation and teleoperation
-- Imitation learning / learning from demonstration
-- Multimodal robotic systems
-- Vision-Language-Action models
-- Foundation models for robotics
-- Agentic robots: LLM/MLLM-based agents for robot task planning, reasoning, and skill orchestration
-- SLAM and spatial intelligence for robotic systems
+  <div class="publication">
+    <div class="publication-title">Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions</div>
+    <div><strong>Hanyang Zhong</strong><sup>&dagger;</sup>, Liman Wang<sup>&dagger;</sup>, Wenting Cao, Zeyuan Sun</div>
+    <div class="publication-meta"><em>Annual Meeting of the Cognitive Science Society (CogSci), 2025</em></div>
+    <div class="publication-links">
+      <a href="https://escholarship.org/uc/item/2vr690cx">Paper</a>
+      <a href="https://hanyangzhong.github.io/BRU-website/">Project Page</a>
+      <a href="https://github.com/HanyangZhong/BRU-datasets">Dataset</a>
+    </div>
+  </div>
 
-<br>
+  <div class="publication">
+    <div class="publication-title">FENet: Focusing Enhanced Network for Lane Detection</div>
+    <div>Liman Wang<sup>&dagger;</sup>, <strong>Hanyang Zhong</strong><sup>&dagger;</sup></div>
+    <div class="publication-meta"><em>IEEE International Conference on Multimedia and Expo (ICME), 2024, <strong>Oral</strong></em></div>
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/document/10687857">Paper</a>
+      <a href="https://github.com/HanyangZhong/FENet">Code</a>
+    </div>
+  </div>
 
----
+  <div class="publication">
+    <div class="publication-title">LLM-SAP: Large Language Models Situational Awareness-Based Planning</div>
+    <div>Liman Wang<sup>&dagger;</sup>, <strong>Hanyang Zhong</strong><sup>&dagger;</sup></div>
+    <div class="publication-meta"><em>IEEE ICME Workshops (ICMEW), 2024</em></div>
+    <div class="publication-links">
+      <a href="https://ieeexplore.ieee.org/document/10645429">Paper</a>
+      <a href="https://arxiv.org/abs/2312.16127">arXiv</a>
+    </div>
+  </div>
 
-## Publications and Preprints
+  <div class="publication-meta"><sup>&dagger;</sup> equal contribution</div>
+</section>
 
-- **DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation**  
-  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup>, Zhaole Sun, Wenting Cao, Babar Jamil, Andy Tyrrell, Shan Luo, Jihong Zhu (<sup>†</sup> equal contribution)  
-  *IEEE Transactions on Robotics (T-RO), 2026 (Accepted)*  
-  [Project Website](https://dexremo.github.io/) / [Paper](https://arxiv.org/abs/2611.15981) / [Video](https://youtu.be/4ot1Yy7es_o)  
-  This work presents DexRemo, a low-cost three-finger, 12-DoF robotic hand with optional three-axis fingertip force sensing, together with a suite of nine real-robot removal tasks involving adhered, embedded, contaminated, or buried targets. By expressing fingertip pose and force in a shared wrist frame, imitation-learning policies improve task success from 24% to 83%. The hand also achieves a 62.5 N pullout strength, the highest among the compared hands.
+<section>
+  <h2>Education &amp; Experience</h2>
+  <ul class="timeline">
+    <li><span class="timeline-date">2022 – Jan 2027</span><strong>PhD, Electronic Engineering (Robotics)</strong>, University of York, UK</li>
+    <li><span class="timeline-date">2022 – 2025</span><strong>Graduate Teaching Assistant</strong>, MSc Intelligent Robotics, University of York</li>
+    <li><span class="timeline-date">2021 – 2022</span><strong>MSc, Intelligent Robotics</strong>, University of York, UK</li>
+    <li><span class="timeline-date">2019 – 2021</span><strong>Embedded Systems Engineer</strong>, Zhigong Control Technology, Guangzhou, China</li>
+    <li><span class="timeline-date">2015 – 2019</span><strong>BEng, Electronic Information Engineering</strong>, Jiangxi University of Water Resources and Electric Power</li>
+  </ul>
+</section>
 
-- **StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments**  
-  **Hanyang Zhong**, Liman Wang, Mark Post  
-  *Under review, Preprint, 2026*  
-  This work presents a line-centric stereo SLAM system designed for structure-dominant and low-texture environments. It uses line features as primary geometric cues to improve localization and mapping robustness in scenes such as corridors, workshops, photovoltaic fields, and other man-made environments. The system aims to provide a lightweight and fully geometric alternative for reliable robotic mapping without relying on learning-based components.
+<section>
+  <h2>Reviewing</h2>
+  <p>ICRA 2026, 2027 · RSS 2027 · CoRL 2026 · IROS 2026 · Complex &amp; Intelligent Systems · ICME 2024</p>
+</section>
 
-- **MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection**  
-  Liman Wang, **Hanyang Zhong**, Tianyuan Wang, Shan Luo, Jihong Zhu  
-  *IEEE Robotics and Automation Letters (RA-L), 2025*  
-  This work proposes a robotic framework for fabric sorting and selection using multimodal large language models. The system integrates RGB images, tactile sensing, and pressure data to reason about material properties such as softness, elasticity, and thickness. It demonstrates how MLLMs can support task-aware robotic decision-making for deformable material handling and textile-related applications.
+<section>
+  <h2>News</h2>
+  <ul class="news">
+    <li><span class="news-date">Nov 2026</span><a href="https://dexremo.github.io/">DexRemo</a> accepted to <strong>IEEE T-RO</strong>.</li>
+    <li><span class="news-date">Nov 2026</span>Reviewer for <strong>ICRA 2027</strong> and <strong>RSS 2027</strong>.</li>
+    <li><span class="news-date">Jun 2026</span>Presented MLLM-Fabric at <strong>ICRA 2026</strong>, Vienna.</li>
+    <li><span class="news-date">Oct 2025</span>MLLM-Fabric accepted to <strong>IEEE RA-L</strong>.</li>
+    <li><span class="news-date">Jul 2025</span>Balancing Rigor and Utility accepted to <strong>CogSci 2025</strong>.</li>
+    <li><span class="news-date">Mar 2024</span>FENet accepted to <strong>ICME 2024</strong> as an oral paper.</li>
+  </ul>
+</section>
 
-- **Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions**  
-  **Hanyang Zhong**<sup>†</sup>, Liman Wang<sup>†</sup>, Wenting Cao, Zeyuan Sun (<sup>†</sup> equal contribution)  
-  *CogSci 2025*  
-  This work investigates how cognitive biases affect the decision-making behavior of large language models in multiple-choice reasoning tasks. Instead of simply attempting to remove all biases, it studies how abstention and bias-aware prompting can balance accuracy, decisiveness, and reliability. The work provides insights into building more trustworthy LLM-based reasoning systems under uncertainty.
-
-- **FENet: Focusing Enhanced Network for Lane Detection**  
-  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)  
-  *IEEE ICME 2024, Oral*  
-  This work proposes a focusing enhanced network for robust lane detection in autonomous driving scenarios. The method improves the representation of lane-related visual features, especially under challenging road conditions where lane markings may be weak, occluded, or visually ambiguous. It contributes to perception systems for intelligent transportation and autonomous driving.
-
-- **LLM-SAP: Large Language Models Situational Awareness-Based Planning**  
-  Liman Wang<sup>†</sup>, **Hanyang Zhong**<sup>†</sup> (<sup>†</sup> equal contribution)  
-  *IEEE ICME Workshops, 2024*  
-  This work explores how large language models can be used for situational-awareness-based robotic planning. The framework encourages robots to consider environmental context, task constraints, and safety-related information before generating actions. It represents an early step toward using LLMs as high-level reasoning modules for embodied robotic decision-making.
-
----
-
-## Academic Service
-
-Reviewer for:
-
-- **IEEE International Conference on Robotics and Automation (ICRA):** 2026, 2027
-- **Robotics: Science and Systems (RSS):** 2027
-- **Conference on Robot Learning (CoRL):** 2026
-- **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS):** 2026
-- **Complex & Intelligent Systems (CAIS/CIS):** 2026
-- **IEEE International Conference on Multimedia and Expo (ICME):** 2024
-
----
-
-## News and Updates
-
-- **Nov 2026:** Our work [**DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation**](https://arxiv.org/abs/2611.15981) has been accepted to **IEEE Transactions on Robotics (T-RO)**! 🎉 We present a low-cost force-sensing three-finger hand and a task suite of nine contact-rich removal tasks, and show that expressing fingertip force in a shared wrist frame raises imitation-learning success from 24% to 83%. The [**project website**](https://dexremo.github.io/) and [**project video**](https://youtu.be/4ot1Yy7es_o) are now available, and hardware/software will be open-sourced in stages.
-
-- **ICRA 2027 & RSS 2027:** I am serving as a reviewer for [**ICRA 2027**](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), the IEEE International Conference on Robotics and Automation, and [**RSS 2027**](https://roboticsconference.org/), Robotics: Science and Systems. I am glad to keep contributing to the robotics and robot learning community through reviewing.
-
-- **June 2026:** I attended [**ICRA 2026**](https://2026.ieee-icra.org/) to present our *MLLM-Fabric* poster, and enjoyed discussing our recent work on multimodal robotic manipulation, tactile sensing, and embodied AI with the robotics community.
-
-- **May 2026:** I participated in the [**Institute for Safe Autonomy (ISA) Industry Summit and Open Day**](https://www.linkedin.com/posts/yesterday-we-hosted-our-first-safe-autonomy-ugcPost-7458152703320420352-D3Aw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOr9DUB6aB17yx2UhkaK1uoeustSxi0iJE) at the University of York. It was a great opportunity to present and discuss our recent robotics research with visitors from academia and industry, especially around safe autonomy, embodied AI, and robotic manipulation.
-
-- **May 2026:** I became a reviewer for [**CoRL 2026**](https://www.corl.org/), the Conference on Robot Learning, which focuses on the intersection of robotics and machine learning. CoRL 2026 will be held in Austin, Texas, US. I am excited to contribute to the robot learning and embodied AI research community through the reviewing process.
-
-- **March - May 2026:** I continue serving as a reviewer for **Complex & Intelligent Systems (CAIS/CIS)**. I appreciate the opportunity to review work related to intelligent systems, AI, and robotics.
-
-- **March 2026:** Our work [**StrucLine-SLAM: A Lightweight and Fully Geometric SLAM System for Structure-Dominant Environments**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6506801) is currently under review. We propose a line-centric stereo SLAM system for structured and low-texture environments such as corridors, workshops, and photovoltaic fields. This work aims to provide a lightweight geometric mapping solution for robotic systems operating in structure-dominant scenes. The [**project website**](https://anonymous.4open.science/r/SLAM-C7BA/README.md) and [**project video**](https://www.youtube.com/watch?v=MN1LQOo9EvI) are also available.
-
-- **March 2026:** I became a reviewer for [**IROS 2026**](https://2026.ieee-iros.org/), the IEEE/RSJ International Conference on Intelligent Robots and Systems. IROS 2026 will be held in Pittsburgh, Pennsylvania, USA, focusing on intelligent robots, autonomous systems, robot learning, and embodied AI. I am happy to contribute to the robotics research community through the reviewing process.
-
-- **Oct 2025:** Our work [**MLLM-Fabric: Multimodal Large Language Model-Driven Robotic Framework for Fabric Sorting and Selection**](https://ieeexplore.ieee.org/abstract/document/11217170) has been accepted to **IEEE Robotics and Automation Letters (RA-L)**. We propose a multimodal robotic framework that combines RGB images, tactile sensing, pressure data, and MLLM-based reasoning for fabric sorting and selection. This work explores how multimodal foundation models can support task-aware robotic manipulation of deformable materials. The [**project website**](https://github.com/limanwang/MLLM-Fabric) and [**dataset**](https://huggingface.co/datasets/EuniceF/MLLM-Fabric) are publicly available.
-
-- **July 2025:** Our work [**Balancing Rigor and Utility: Mitigating Cognitive Biases in Large Language Models for Multiple-Choice Questions**](https://escholarship.org/uc/item/2vr690cx)* has been accepted to [**CogSci 2025**](https://cognitivesciencesociety.org/cogsci-2025/). We propose an abstention-aware evaluation and prompting framework to study how cognitive biases affect LLM reasoning under uncertainty, aiming to improve the reliability and practical utility of LLM-based decision-making systems. The [**dataset**](https://github.com/HanyangZhong/BRU-datasets), [**project** website](https://hanyangzhong.github.io/BRU-website/), and [**poster**](https://github.com/HanyangZhong/BRU-website/blob/main/src/assets/font/CogSci_BRU_Poster.pdf) are publicly available.
-
-- **July 2024:** The [**ICME 2024**](https://2024.ieeeicme.org/#/) was successfully held, and our papers (**LLM-SAP** and **FENet**) were presented at the conference. Welcome to continue following our work.
-
-- **April 2024:** Our work **LLM-SAP: Large Language Models Situational Awareness Based Planning** has been accepted to [ICMEW 2024](https://vista-h.github.io/MML4SG_2024/#/). We propose a situational-awareness-based planning framework that uses LLMs to support safer and more context-aware robotic decision-making. [**Preprint version download**](https://arxiv.org/abs/2312.16127#/) 🔗
-
-- **March 2024:** Our work **FENet: Focusing Enhanced Network for Lane Detection** has been accepted to [ICME 2024](https://2024.ieeeicme.org/#/) as an Oral paper. We propose a focusing enhanced network to improve lane feature representation and robust lane detection in autonomous driving scenarios. [**Preprint version download**](https://arxiv.org/abs/2312.17163#/) 🔗
-
-- **Jan 2024:** Became an **ICME reviewer**.
-
-- **Dec 2023:** I posted a preprint on arXiv titled "[**LLM-SAP: Large Language Model Situational Awareness Based Planning**](https://github.com/HanyangZhong/Situational_Planning_datasets)". We explore the use of LLMs to enable context-aware robot planning and situational reasoning.
-
-- **Dec 2023:** I posted the preprint "[**FENet: Focusing Enhanced Network for Lane Detection**](https://github.com/HanyangZhong/FENet)". We propose a neural network approach to improve lane detection for autonomous driving perception.
-
-<br>
+</div>
