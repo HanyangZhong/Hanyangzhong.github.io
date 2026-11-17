@@ -8,7 +8,7 @@ layout: page
 .profile a:hover { text-decoration: underline; }
 
 .profile-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 28px; }
-.profile-header img { width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex: 0 0 auto; }
+.profile-header img { width: 240px; height: 240px; object-fit: cover; border-radius: 10px; flex: 0 0 auto; }
 .profile-header h1 { margin: 0 0 10px; font-size: 2.2rem; line-height: 1.15; }
 .profile-header p { margin: 0 0 10px; }
 .profile-links a + a { margin-left: 14px; }
@@ -45,7 +45,7 @@ layout: page
 
 @media (max-width: 700px) {
   .profile-header { display: block; }
-  .profile-header img { margin-bottom: 16px; }
+  .profile-header img { width: 100%; height: auto; max-width: 360px; margin-bottom: 16px; }
   .stack-row { display: block; }
   .stack-label { margin-bottom: 4px; }
   .timeline-date, .news-date { display: block; }
@@ -55,7 +55,7 @@ layout: page
 <div class="profile">
 
 <div class="profile-header">
-  <img src="images/profile9.jpg" alt="Hanyang Zhong" />
+  <img src="images/icra2026.jpg" alt="Hanyang Zhong presenting MLLM-Fabric at ICRA 2026" />
   <div>
     <h1>Hanyang Zhong (钟翰扬)</h1>
     <p>
