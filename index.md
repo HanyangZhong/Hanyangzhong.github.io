@@ -7,13 +7,19 @@ layout: page
 .profile a { color: #2f5d8a; text-decoration: none; }
 .profile a:hover { text-decoration: underline; }
 
-.profile-header { display: flex; align-items: flex-start; gap: 28px; margin-bottom: 28px; }
-.profile-header img { width: 240px; height: 240px; object-fit: cover; border-radius: 10px; flex: 0 0 auto; }
-.profile-header h1 { margin: 0 0 10px; font-size: 2.2rem; line-height: 1.15; }
-.profile-header p { margin: 0 0 10px; }
-.profile-links a + a { margin-left: 14px; }
+.profile p, .profile p + p { text-indent: 0; margin-top: 0; }
 
-.open-to { margin-top: 12px; padding: 10px 14px; border-left: 4px solid #2f5d8a; background: #f2f6fa; border-radius: 4px; }
+.profile-header { display: flex; align-items: flex-start; gap: 32px; }
+.profile-intro { flex: 1 1 auto; min-width: 0; }
+.profile-header h1 { margin: 0 0 12px; font-size: 2.2rem; line-height: 1.15; }
+.profile-header p { margin: 0 0 12px; }
+.profile-links a + a { margin-left: 16px; }
+
+.profile-photo { flex: 0 0 210px; margin: 4px 0 0; }
+.profile-photo img { display: block; width: 210px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+.profile-photo figcaption { margin-top: 6px; color: #777; font-size: 0.8rem; text-align: center; }
+
+.open-to { margin-top: 24px; padding: 12px 16px; border-left: 4px solid #2f5d8a; background: #f2f6fa; border-radius: 4px; }
 
 .profile section { margin-top: 34px; }
 .profile h2 { margin: 0 0 14px; padding-bottom: 7px; border-bottom: 1px solid #e5e5e5; font-size: 1.45rem; }
@@ -45,7 +51,8 @@ layout: page
 
 @media (max-width: 700px) {
   .profile-header { display: block; }
-  .profile-header img { width: 100%; height: auto; max-width: 360px; margin-bottom: 16px; }
+  .profile-photo { margin: 20px auto 0; max-width: 280px; }
+  .profile-photo img { width: 100%; }
   .stack-row { display: block; }
   .stack-label { margin-bottom: 4px; }
   .timeline-date, .news-date { display: block; }
@@ -55,8 +62,7 @@ layout: page
 <div class="profile">
 
 <div class="profile-header">
-  <img src="images/icra2026.jpg" alt="Hanyang Zhong presenting MLLM-Fabric at ICRA 2026" />
-  <div>
+  <div class="profile-intro">
     <h1>Hanyang Zhong (钟翰扬)</h1>
     <p>
       PhD candidate in Electronic Engineering (Robotics) at the
@@ -72,11 +78,16 @@ layout: page
       <a href="https://github.com/HanyangZhong">GitHub</a>
       <a href="https://huggingface.co/hanyang1">Hugging Face</a>
     </p>
-    <div class="open-to">
-      <strong>Open to roles from early 2027:</strong> Robotics / Embodied AI Research Scientist,
-      Robot Learning Engineer, or Postdoc, in dexterous manipulation, robot learning and embodied AI.
-    </div>
   </div>
+  <figure class="profile-photo">
+    <img src="images/icra2026_poster.jpg" alt="Hanyang Zhong presenting MLLM-Fabric at ICRA 2026" />
+    <figcaption>Presenting MLLM-Fabric at ICRA 2026, Vienna</figcaption>
+  </figure>
+</div>
+
+<div class="open-to">
+  <strong>Open to roles from early 2027:</strong> Robotics / Embodied AI Research Scientist,
+  Robot Learning Engineer, or Postdoc, in dexterous manipulation, robot learning and embodied AI.
 </div>
 
 <section>
