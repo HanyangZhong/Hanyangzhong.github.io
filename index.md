@@ -15,9 +15,9 @@ layout: page
 .profile-header p { margin: 0 0 12px; }
 .profile-links a + a { margin-left: 16px; }
 
-.profile-photo { margin: 24px 0 0; }
+.profile-photo { flex: 0 0 250px; margin-top: 4px; }
 .profile-photo img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
-.profile-photo-caption { margin-top: 8px; color: #777; font-size: 0.85rem; text-align: center; }
+.profile-photo-caption { margin-top: 6px; color: #777; font-size: 0.8rem; line-height: 1.4; text-align: center; }
 
 .open-to { margin-top: 24px; padding: 12px 16px; border-left: 4px solid #2f5d8a; background: #f2f6fa; border-radius: 4px; }
 
@@ -51,6 +51,7 @@ layout: page
 
 @media (max-width: 700px) {
   .profile-header { display: block; }
+  .profile-photo { max-width: 320px; margin: 16px auto 0; }
   .stack-row { display: block; }
   .stack-label { margin-bottom: 4px; }
   .timeline-date, .news-date { display: block; }
@@ -77,16 +78,15 @@ layout: page
       <a href="https://huggingface.co/hanyang1">Hugging Face</a>
     </p>
   </div>
+  <div class="profile-photo">
+    <img src="images/icra2026_booth.jpg" alt="Hanyang Zhong presenting the MLLM-Fabric poster at ICRA 2026" />
+    <div class="profile-photo-caption">Presenting our <a href="https://ieeexplore.ieee.org/abstract/document/11217170">MLLM-Fabric</a> poster at ICRA 2026, Vienna</div>
+  </div>
 </div>
 
 <div class="open-to">
   <strong>Open to roles from early 2027:</strong> Robotics / Embodied AI Research Scientist,
   Robot Learning Engineer, or Postdoc, in dexterous manipulation, robot learning and embodied AI.
-</div>
-
-<div class="profile-photo">
-  <img src="images/icra2026_full.jpg" alt="Hanyang Zhong presenting the MLLM-Fabric poster at ICRA 2026" />
-  <div class="profile-photo-caption">Presenting our <a href="https://ieeexplore.ieee.org/abstract/document/11217170">MLLM-Fabric</a> poster at ICRA 2026, Vienna</div>
 </div>
 
 <section>
