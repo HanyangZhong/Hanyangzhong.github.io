@@ -15,7 +15,7 @@ layout: page
 .profile-header p { margin: 0 0 12px; }
 .profile-links a + a { margin-left: 16px; }
 
-.profile-photo { flex: 0 0 250px; margin-top: 4px; }
+.profile-photo { flex: 0 0 300px; margin-top: 4px; }
 .profile-photo img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
 .profile-photo-caption { margin-top: 6px; color: #777; font-size: 0.8rem; line-height: 1.4; text-align: center; }
 
@@ -51,7 +51,7 @@ layout: page
 
 @media (max-width: 700px) {
   .profile-header { display: block; }
-  .profile-photo { max-width: 320px; margin: 16px auto 0; }
+  .profile-photo { max-width: 420px; margin: 16px auto 0; }
   .stack-row { display: block; }
   .stack-label { margin-bottom: 4px; }
   .timeline-date, .news-date { display: block; }
@@ -79,7 +79,7 @@ layout: page
     </p>
   </div>
   <div class="profile-photo">
-    <img src="images/icra2026_booth.jpg" alt="Hanyang Zhong presenting the MLLM-Fabric poster at ICRA 2026" />
+    <img src="images/icra2026_poster_hd.jpg" alt="Hanyang Zhong presenting the MLLM-Fabric poster at ICRA 2026" />
     <div class="profile-photo-caption">Presenting our <a href="https://ieeexplore.ieee.org/abstract/document/11217170">MLLM-Fabric</a> poster at ICRA 2026, Vienna</div>
   </div>
 </div>
