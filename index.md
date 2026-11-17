@@ -67,8 +67,7 @@ layout: page
       <strong>agentic robots</strong> that use LLM/MLLM reasoning to drive learned skills.
     </p>
     <p class="profile-links">
-      <a href="mailto:hanyang.zhong@york.ac.uk">Email</a>
-      <a href="https://hanyangzhong.github.io/file/CV_hanyang_zhong_2026_11_13.pdf">CV</a>
+      <a href="mailto:hanyangzhong552@gmail.com">Email</a>
       <a href="https://scholar.google.com/citations?user=6cbhsRMAAAAJ">Google Scholar</a>
       <a href="https://github.com/HanyangZhong">GitHub</a>
       <a href="https://huggingface.co/hanyang1">Hugging Face</a>
