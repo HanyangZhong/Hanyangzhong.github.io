@@ -65,7 +65,7 @@ layout: page
     <h1>Hanyang Zhong (钟翰扬)</h1>
     <p>
       PhD candidate in Electronic Engineering (Robotics) at the
-      <a href="https://www.york.ac.uk/">University of York</a>, UK (expected Jan 2027).
+      <a href="https://www.york.ac.uk/">University of York</a>, UK (expected Jun 2027).
       I build complete real-robot systems for <strong>dexterous, contact-rich manipulation</strong>:
       dexterous hands and fingertip force sensors, embedded control, multimodal data collection,
       and imitation-learning policies deployed on physical robots. I also build
@@ -85,8 +85,8 @@ layout: page
 </div>
 
 <div class="open-to">
-  <strong>Open to roles from early 2027:</strong> Robotics / Embodied AI Research Scientist,
-  Robot Learning Engineer, or Postdoc, in dexterous manipulation, robot learning and embodied AI.
+  <strong>Seeking research internships:</strong> Embodied AI algorithm intern or Agentic Robot algorithm intern,
+  focusing on robot learning, dexterous manipulation, and LLM/MLLM-driven robot agents.
 </div>
 
 <section>
@@ -199,7 +199,7 @@ layout: page
 <section>
   <h2>Education &amp; Experience</h2>
   <ul class="timeline">
-    <li><span class="timeline-date">2022 – Jan 2027</span><strong>PhD, Electronic Engineering (Robotics)</strong>, University of York, UK</li>
+    <li><span class="timeline-date">2022 – Jun 2027</span><strong>PhD, Electronic Engineering (Robotics)</strong>, University of York, UK</li>
     <li><span class="timeline-date">2022 – 2025</span><strong>Graduate Teaching Assistant</strong>, MSc Intelligent Robotics, University of York</li>
     <li><span class="timeline-date">2021 – 2022</span><strong>MSc, Intelligent Robotics</strong>, University of York, UK</li>
     <li><span class="timeline-date">2019 – 2021</span><strong>Embedded Systems Engineer</strong>, Zhigong Control Technology, Guangzhou, China</li>
