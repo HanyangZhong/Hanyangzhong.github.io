@@ -20,6 +20,8 @@ layout: page
 .profile-photo-caption { margin-top: 6px; color: #777; font-size: 0.8rem; line-height: 1.4; text-align: center; }
 
 .open-to { margin-top: 24px; padding: 12px 16px; border-left: 4px solid #2f5d8a; background: #f2f6fa; border-radius: 4px; }
+.open-to ul { margin: 6px 0 0; padding-left: 20px; }
+.open-to li { margin-bottom: 4px; }
 
 .profile section { margin-top: 34px; }
 .profile h2 { margin: 0 0 14px; padding-bottom: 7px; border-bottom: 1px solid #e5e5e5; font-size: 1.45rem; }
@@ -85,8 +87,13 @@ layout: page
 </div>
 
 <div class="open-to">
-  <strong>Seeking research internships:</strong> Embodied AI algorithm intern or Agentic Robot algorithm intern,
-  focusing on robot learning, dexterous manipulation, and LLM/MLLM-driven robot agents.
+  <strong>Seeking research internships</strong> (available from Dec 2026) in:
+  <ul>
+    <li><strong>VLA / Robot Learning / Imitation Learning:</strong> training and fine-tuning ACT, Diffusion Policy, &pi;0 and SmolVLA;
+      contact-rich, vision&ndash;force fusion, bimanual and dexterous-hand imitation learning with real-robot closed-loop evaluation.</li>
+    <li><strong>Agentic Robots:</strong> LLM/MLLM agents for autonomous exploration, skill generation and task planning,
+      with tool calling, multi-agent feedback and Real2Sim2Real transfer.</li>
+  </ul>
 </div>
 
 <section>
