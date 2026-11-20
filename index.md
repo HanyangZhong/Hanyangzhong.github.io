@@ -90,47 +90,6 @@ layout: page
 </div>
 
 <section>
-  <h2>Highlights</h2>
-  <ul class="highlights">
-    <li><strong>Co-first author of <a href="https://dexremo.github.io/">DexRemo</a>, accepted to IEEE T-RO (2026).</strong>
-      Designed the hardware and fingertip force sensors for a low-cost, 12-DoF three-finger hand.
-      Adding fingertip force raised imitation-learning success from <strong>24% to 83%</strong>,
-      and the hand reached a <strong>62.5 N</strong> pull-out strength, the highest among the hands we compared.</li>
-    <li><strong>5 peer-reviewed papers</strong> in T-RO, RA-L, ICME (Oral), ICMEW and CogSci; first or co-first author on 4.</li>
-    <li><strong>Built a full robot stack alone:</strong> the bimanual teleoperation platform, force sensors, PCB and firmware,
-      the data pipeline, and policy deployment. Independent first author of a bimanual imitation-learning paper under review at ICRA 2027.</li>
-    <li><strong>Reviewer</strong> for ICRA, RSS, CoRL and IROS. Presented a poster at ICRA 2026 in Vienna.</li>
-    <li><strong>Open-source releases:</strong> the <a href="https://huggingface.co/datasets/EuniceF/MLLM-Fabric">MLLM-Fabric dataset</a>,
-      the <a href="https://github.com/HanyangZhong/BRU-datasets">BRU dataset</a> and <a href="https://github.com/HanyangZhong/FENet">FENet code</a>.</li>
-    <li><strong>Industry experience:</strong> 2 years as an Embedded Systems Engineer and 3 years as a Graduate Teaching Assistant for MSc Intelligent Robotics.</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Tech Stack</h2>
-  <div class="stack-row">
-    <div class="stack-label">Robot Learning</div>
-    <div><span class="chip">Imitation Learning</span><span class="chip">ACT-style Policies</span><span class="chip">Teleoperation Data Collection</span><span class="chip">Multimodal Policies (Vision / Force / Tactile)</span><span class="chip">Real-Robot Deployment</span></div>
-  </div>
-  <div class="stack-row">
-    <div class="stack-label">Embodied AI</div>
-    <div><span class="chip">LLM / MLLM Task Planning</span><span class="chip">Agentic Skill Orchestration</span><span class="chip">VLA Systems</span><span class="chip">MLLM Fine-tuning</span></div>
-  </div>
-  <div class="stack-row">
-    <div class="stack-label">Software</div>
-    <div><span class="chip">Python</span><span class="chip">C++</span><span class="chip">PyTorch</span><span class="chip">ROS</span><span class="chip">OpenCV</span><span class="chip">Linux</span><span class="chip">Git</span><span class="chip">Multi-sensor Sync &amp; Logging</span></div>
-  </div>
-  <div class="stack-row">
-    <div class="stack-label">Hardware</div>
-    <div><span class="chip">Fingertip Force / F-T Sensing</span><span class="chip">Sensor Calibration</span><span class="chip">PCB Design</span><span class="chip">Embedded Firmware</span><span class="chip">Motor Control</span></div>
-  </div>
-  <div class="stack-row">
-    <div class="stack-label">Mechanical</div>
-    <div><span class="chip">SolidWorks</span><span class="chip">Inventor</span><span class="chip">Dexterous Hand Prototyping</span><span class="chip">3D Printing</span><span class="chip">CNC</span><span class="chip">Sheet Metal</span></div>
-  </div>
-</section>
-
-<section>
   <h2>Selected Publications</h2>
 
   <div class="publication featured">
@@ -194,6 +153,47 @@ layout: page
   </div>
 
   <div class="publication-meta"><sup>&dagger;</sup> equal contribution</div>
+</section>
+
+<section>
+  <h2>Highlights</h2>
+  <ul class="highlights">
+    <li><strong>Co-first author of <a href="https://dexremo.github.io/">DexRemo</a>, accepted to IEEE T-RO (2026).</strong>
+      Designed the hardware and fingertip force sensors for a low-cost, 12-DoF three-finger hand.
+      Adding fingertip force raised imitation-learning success from <strong>24% to 83%</strong>,
+      and the hand reached a <strong>62.5 N</strong> pull-out strength, the highest among the hands we compared.</li>
+    <li><strong>5 peer-reviewed papers</strong> in T-RO, RA-L, ICME (Oral), ICMEW and CogSci; first or co-first author on 4.</li>
+    <li><strong>Built a full robot stack alone:</strong> the bimanual teleoperation platform, force sensors, PCB and firmware,
+      the data pipeline, and policy deployment. Independent first author of a bimanual imitation-learning paper under review at ICRA 2027.</li>
+    <li><strong>Reviewer</strong> for ICRA, RSS, CoRL and IROS. Presented a poster at ICRA 2026 in Vienna.</li>
+    <li><strong>Open-source releases:</strong> the <a href="https://huggingface.co/datasets/EuniceF/MLLM-Fabric">MLLM-Fabric dataset</a>,
+      the <a href="https://github.com/HanyangZhong/BRU-datasets">BRU dataset</a> and <a href="https://github.com/HanyangZhong/FENet">FENet code</a>.</li>
+    <li><strong>Industry experience:</strong> 2 years as an Embedded Systems Engineer and 3 years as a Graduate Teaching Assistant for MSc Intelligent Robotics.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Tech Stack</h2>
+  <div class="stack-row">
+    <div class="stack-label">Robot Learning</div>
+    <div><span class="chip">Imitation Learning</span><span class="chip">ACT-style Policies</span><span class="chip">Teleoperation Data Collection</span><span class="chip">Multimodal Policies (Vision / Force / Tactile)</span><span class="chip">Real-Robot Deployment</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Embodied AI</div>
+    <div><span class="chip">LLM / MLLM Task Planning</span><span class="chip">Agentic Skill Orchestration</span><span class="chip">VLA Systems</span><span class="chip">MLLM Fine-tuning</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Software</div>
+    <div><span class="chip">Python</span><span class="chip">C++</span><span class="chip">PyTorch</span><span class="chip">ROS</span><span class="chip">OpenCV</span><span class="chip">Linux</span><span class="chip">Git</span><span class="chip">Multi-sensor Sync &amp; Logging</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Hardware</div>
+    <div><span class="chip">Fingertip Force / F-T Sensing</span><span class="chip">Sensor Calibration</span><span class="chip">PCB Design</span><span class="chip">Embedded Firmware</span><span class="chip">Motor Control</span></div>
+  </div>
+  <div class="stack-row">
+    <div class="stack-label">Mechanical</div>
+    <div><span class="chip">SolidWorks</span><span class="chip">Inventor</span><span class="chip">Dexterous Hand Prototyping</span><span class="chip">3D Printing</span><span class="chip">CNC</span><span class="chip">Sheet Metal</span></div>
+  </div>
 </section>
 
 <section>
